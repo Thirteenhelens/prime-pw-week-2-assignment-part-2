@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret, and one called code. Code is equal to 123.
+// We make a variable called secret, and one called code. Code is equal to the number 123.
 // We check if code is exactly equal to 123, it is, so we set secret to 'super' and we multiply code by 2, making it 246.
 // Next, we check if code (with it's new value) is greater than 250.
 // Since it isn't, we log the value of secret ('super') to the console.
@@ -131,6 +131,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - The instructions said to set both colorOne and colorTwo to 'purple',
+// but only colorOne was changed. colorTwo should also be set to 'purple'.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -145,6 +148,11 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
+// FIX - Instructions said that time is a varibale, but it is a constant.
+// This should be changed to let time = 4;
+// Also, instructions want both time and temp to be true in their comparisons,
+// but || was used, meaning or. This should be replaced by &&, meaning and.
+
 /*
 let temp = 40;
 const time = 4;
@@ -157,6 +165,12 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
+
+// FIX - Once again, instructions said minAge is a variable, but it is a constant.
+// This should be changed to let minAge = 21;. Also, the result of (minAge <= age)
+// is set to log 'no entry' to the console. Instructions ask for us to log 'enter' to console.
+// The result of the else and if statements should be switched. 
+
 
 /*
 let age = 21;
